@@ -35,4 +35,4 @@ To run the examples, simply navigate to the directory containing the Python scri
 
 py linechart.py
 
-Thank you for checking out the Python Chart Repository! If you have any questions or suggestions, please open an issue or contact the repository owner.                                                     give me markdwn content this
+Thank you for checking out the Python Chart Repository! If you have any questions or suggestions, please open an issue or contact the repository owner.       
