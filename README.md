@@ -16,8 +16,8 @@ To run the code in this repository, you need to have Python installed on your ma
 ```bash
 pip install -r requirements.txt
 
-# Chart Examples
-
+**## Chart Examples
+**
 Here is a list of the charts included in this repository:
 
 Line Chart - A simple line chart to display trends over time.
