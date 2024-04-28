@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
 
+# A dendrogram in Python is a tree-like diagram used to illustrate the arrangement of clusters produced by hierarchical clustering algorithms. 
+# It's commonly used in data analysis and bioinformatics to visualize the relationships and groupings within a dataset.
+
 # Generate sample data for clustering
 np.random.seed(0)
 data = np.random.rand(10, 2)  # 10 points with 2 features

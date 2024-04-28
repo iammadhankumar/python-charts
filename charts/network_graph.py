@@ -1,6 +1,11 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+# A network graph in Python is used to visualize the connections between different nodes, often representing relationships, dependencies, or connections in a dataset. 
+# It's useful for illustrating complex networks like social relationships, transportation systems, or communication networks.
+# If needed, install networkx
+# pip install networkx
+
 # Create a simple graph with nodes and edges
 G = nx.Graph()  # Use nx.DiGraph() for directed graphs
 

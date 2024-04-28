@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# A waterfall chart in Python is used to visualize the cumulative effect of sequentially added or subtracted values, 
+# often employed in financial or business analysis to show the flow of values or changes over time. 
+# It helps to understand the breakdown of gains and losses, or increases and decreases, within a series of data.
+# If needed, install `waterfall_chart` library
+#pip install waterfall_chart
+
 # Define the categories and values for the waterfall chart
 categories = ['Start', 'Increase', 'Decrease', 'Another Increase', 'End']
 values = [100, 50, -30, 20, 140]  # Changes to apply at each step

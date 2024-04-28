@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  # Import for 3D plotting
 
+# A 3D surface plot in Python allows you to visualize a three-dimensional dataset on a 2D plane with the addition of a third dimension for height or depth. 
+# Surface plots are useful for visualizing functions of two variables, terrain data, or other 3D data.
+
 # Create a grid of x and y values
 x = np.linspace(-5, 5, 100)
 y = np.linspace(-5, 5, 100)

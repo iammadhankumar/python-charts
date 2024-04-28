@@ -3,6 +3,11 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
+# A pair plot in Python is used to create a grid of plots showing the relationships between pairs of variables in a dataset. This type of plot is helpful for 
+# visualizing pairwise correlations, distributions, and interactions among multiple variables, commonly used in exploratory data analysis.
+# If needed, install Seaborn
+# pip install seaborn
+
 # Create a sample DataFrame with random data
 np.random.seed(0)
 df = pd.DataFrame({

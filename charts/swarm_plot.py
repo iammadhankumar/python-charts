@@ -2,6 +2,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
+# A swarm plot in Python is a type of scatter plot that displays categorical data, showing the distribution of data points 
+# along a categorical axis while avoiding overlap. This plot is useful for visualizing the spread of data in a way that 
+# each point is visible without overlaps, often used in conjunction with box plots or violin plots for more detailed insights.
+# If needed, install Seaborn
+# pip install seaborn
+
 # Sample data for the swarm plot
 np.random.seed(0)
 categories = ['Category A', 'Category B', 'Category C']

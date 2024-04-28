@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# A joint plot in Python is used to visualize the relationship between two variables along with their marginal distributions. It combines a scatter plot (or other types of plots) with histograms or density
+# plots on the margins to provide additional context on the individual variable distributions.
+# If needed, install Seaborn
+# pip install seaborn
+
 # Create a sample DataFrame with random data
 np.random.seed(0)
 df = pd.DataFrame({

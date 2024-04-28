@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# A bubble chart in Python is a scatter plot where each point's size is determined by a third variable, 
+# creating a visual representation of additional information. Bubble charts are helpful in showing relationships between three variables. 
+# You can create bubble charts in Python with libraries like Matplotlib, Seaborn, or Plotly.
+
 # Generate random data
 np.random.seed(0)
 x = np.random.rand(50) * 100  # X-axis values

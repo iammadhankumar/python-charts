@@ -1,6 +1,11 @@
 import matplotlib.pyplot as plt
 import squarify
 
+# A treemap in Python is used to visualize hierarchical data as nested rectangles, where the size of each rectangle represents a specific value, such as area, cost, or quantity. 
+# It's useful for displaying relationships within data and comparing the sizes of different categories.
+# If needed, install squarify
+# pip install squarify
+
 # Sample data for the treemap
 data = {
     'Category A': 100,

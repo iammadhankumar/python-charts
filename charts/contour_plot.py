@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+# A contour plot in Python is used to display 3D data in a 2D plot, showing lines that represent levels of constant values. 
+# You can create contour plots in Python using several libraries like Matplotlib, Seaborn, or Plotly
+
 # Create a grid of x and y values
 x = np.linspace(-5, 5, 100)
 y = np.linspace(-5, 5, 100)

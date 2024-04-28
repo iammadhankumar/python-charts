@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D  # For 3D plotting
 
+# A 3D scatter plot in Python allows you to visualize a dataset with three dimensions. This type of plot is useful when you want to understand 
+# the relationships between three different variables or observe clusters and patterns in a 3D space.
+
 # Generate random data for 3D scatter plot
 np.random.seed(0)
 x = np.random.randn(100)  # X-axis values

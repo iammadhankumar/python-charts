@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 from matplotlib.sankey import Sankey
 
+# A Sankey diagram in Python is used to visualize flows, illustrating the movement of quantities between different categories or processes.
+# It's particularly useful for showing resource flows, energy distribution, or process steps with their respective weights.
+
 # Create a Sankey diagram
 sankey = Sankey(flows=[8, -4, -3, -1],  # Positive for inputs, negative for outputs
                 labels=['Input', 'Output 1', 'Output 2', 'Loss'],

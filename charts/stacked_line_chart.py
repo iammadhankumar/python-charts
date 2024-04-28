@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# A stacked line chart in Python is used to show the cumulative effect of multiple data series stacked on top of each other. It's a variation of a line chart where the lines represent 
+# the cumulative total at each point, demonstrating how multiple datasets contribute to a total over time.
+
 # Generate data for the stacked line chart
 x = np.arange(10)  # X-axis values, representing time or some other progression
 y1 = np.random.randint(1, 10, 10)  # First data series

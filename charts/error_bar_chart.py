@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# An error bar chart in Python is a type of chart used to show the uncertainty or variability in data points. 
+# It's common in scientific experiments and studies where data has inherent measurement errors or statistical variations. 
+# Error bars can represent standard deviation, standard error, confidence intervals, or other measures of variability.
+
 # Sample data
 categories = ['A', 'B', 'C', 'D']
 values = [20, 35, 30, 25]  # Mean values for each category

@@ -1,6 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# A stacked bar chart in Python is used to show the relative composition of different categories within a total. 
+# Each bar represents a group, and the different segments within each bar represent subcategories. 
+# Stacked bar charts are helpful for comparing categories and their subcomponents. 
+# You can create stacked bar charts with libraries like Matplotlib, Seaborn, or Plotly.
+
 # Data for the bar chart
 categories = ['Category A', 'Category B', 'Category C', 'Category D']
 subcategories = ['Subcat 1', 'Subcat 2', 'Subcat 3']

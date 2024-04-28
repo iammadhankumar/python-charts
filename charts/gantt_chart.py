@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
+# A Gantt chart in Python is a type of bar chart used to visualize project schedules, showing the start and end dates of different tasks or activities over time.
+# It's useful for project management, helping to track progress, dependencies, and timelines.
+
 # Define task data with start and end dates
 tasks = {
     'Task 1': {'start': '2024-01-01', 'end': '2024-01-10'},

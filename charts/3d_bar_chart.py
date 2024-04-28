@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D  # Import for 3D plotting
 
+# A 3D bar chart in Python is used to visualize data with an additional dimension. It's particularly useful when you want to represent data across
+# two categorical variables with a third dimension for height, often used for visualizing complex relationships.
+
 # Data for the 3D bar chart
 x = [1, 2, 3, 4, 5]  # x-axis categories
 y = [1, 2, 3]  # y-axis categories

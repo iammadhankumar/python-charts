@@ -3,6 +3,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+# A facet grid in Python is used to create a grid of smaller plots (subplots) based on a categorical variable,allowing you to visualize 
+# data distributions or relationships across different subsets. It's particularly useful for exploring multidimensional data, 
+# making it easier to compare data across different groups or categories.
+# If needed, install Seaborn
+# pip install seaborn
+
 # Create a sample DataFrame
 np.random.seed(0)
 df = pd.DataFrame({
