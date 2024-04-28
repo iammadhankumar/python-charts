@@ -6,9 +6,7 @@ Welcome to the Python Chart Repository! This repository contains 10 different ch
 1. [Installation](#installation)
 2. [Chart Examples](#chart-examples)
 3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
-
+   
 ## Installation
 
 To run the code in this repository, you need to have Python installed on your machine. You can install the required libraries using the following command:
