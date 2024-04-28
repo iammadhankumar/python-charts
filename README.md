@@ -14,7 +14,7 @@ To run the code in this repository, you need to have Python installed on your ma
 ```bash
 pip install -r requirements.txt
 
-## **Chart Examples**
+__Chart Examples__
 
 Here is a list of the charts included in this repository:
 
