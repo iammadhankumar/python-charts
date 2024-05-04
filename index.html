@@ -1,52 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Embedded Content</title>
-  <!-- Viewport meta tag for responsive design -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- CSS for styling -->
-  <style>
-    /* Container for the iframe with padding and border */
-    .iframe-container {
-      max-width: 100%; 
-      padding: 10px; 
-      border: 2px solid #FF5733; /* Bright border */
-      background-color: #F1F1F1; /* Light background */
-      border-radius: 10px; /* Rounded corners */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow */
-    }
-    /* Styling for the iframe */
-    iframe {
-      width: 100%; /* Ensures full width within the container */
-      height: 500px; /* Standard height */
-      border: none; /* No border */
-      border-radius: 10px; /* Matching outer border radius */
-    }
-    /* Adjusting height for different screen sizes */
-    @media (max-width: 599px) {
-      iframe {
-        height: 400px; /* Lower height for smaller screens */
-      }
-    }
-    @media (min-width: 600px) {
-      iframe {
-        height: 600px; /* Higher height for larger screens */
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="iframe-container">
-    <!-- Title with consistent styling -->
-    <h3 style="text-align: center; color: #008080;">Interactive Python Charts</h3>
+<div style="max-width: 100%; padding: 10px; border: 1px solid #ddd; background-color: #f9f9f9;">
     <iframe
       src="https://nbviewer.org/github/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb"
+      width="100%"
+      style="min-height: 600px; border: none; background-color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"
     >
-      <p>Your browser does not support iframes. Please visit the 
-      <a href="https://nbviewer.org/github/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb" 
-         style="color: #FF5733;">content link</a>.</p>
+      <p>Your browser does not support iframes. Please visit the <a href="https://github.com/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb">link</a>.</p>
     </iframe>
   </div>
-</body>
-</html>
+  
