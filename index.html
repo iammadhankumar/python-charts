@@ -5,47 +5,47 @@
   <title>Embedded Content</title>
   <!-- Viewport meta tag for responsive design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Additional CSS for styling -->
+  <!-- CSS for styling -->
   <style>
-    /* Outer container to add padding and styling */
+    /* Container for the iframe with padding and border */
     .iframe-container {
       max-width: 100%; 
       padding: 10px; 
-      border: 2px solid #FF5733; /* Border with bright color */
-      background-color: #F1F1F1; /* Light background for contrast */
+      border: 2px solid #FF5733; /* Bright border */
+      background-color: #F1F1F1; /* Light background */
       border-radius: 10px; /* Rounded corners */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow */
     }
-    /* Responsive iframe with full width */
+    /* Styling for the iframe */
     iframe {
-      width: 100%; 
-      border: none; 
+      width: 100%; /* Ensures full width within the container */
+      height: 500px; /* Standard height */
+      border: none; /* No border */
       border-radius: 10px; /* Matching outer border radius */
-      background-color: #FFFFFF; /* White background */
     }
-    /* Responsive height for mobile devices */
-    @media (min-width: 600px) {
-      iframe {
-        height: 600px; /* Standard height for larger screens */
-      }
-    }
+    /* Adjusting height for different screen sizes */
     @media (max-width: 599px) {
       iframe {
-        height: 400px; /* Reduced height for smaller screens */
+        height: 400px; /* Lower height for smaller screens */
+      }
+    }
+    @media (min-width: 600px) {
+      iframe {
+        height: 600px; /* Higher height for larger screens */
       }
     }
   </style>
 </head>
 <body>
-  <!-- Wrapper for embedded content with colorful design -->
   <div class="iframe-container">
-    <h1 style="text-align: center; color: #008080;">Python Charts</h1>
+    <!-- Title with consistent styling -->
+    <h3 style="text-align: center; color: #008080;">Interactive Python Charts</h3>
     <iframe
       src="https://nbviewer.org/github/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb"
     >
       <p>Your browser does not support iframes. Please visit the 
-      <a href="https://github.com/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb" 
-         style="color: #FF5733;">link</a>.</p>
+      <a href="https://nbviewer.org/github/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb" 
+         style="color: #FF5733;">content link</a>.</p>
     </iframe>
   </div>
 </body>
