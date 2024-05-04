@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jupyter Notebook Viewer </title>
+    <title>Jupyter Notebook Viewer</title>
     <!-- Optional styling for better design -->
     <style>
         body {
@@ -25,7 +25,7 @@
     async function displayNotebook() {
         try {
             // Fetch the notebook from the "output" folder (adjust as needed)
-            const response = await fetch('output/python-charts.ipynb'); // Change to your notebook path
+            const response = await fetch('output/charts-output.ipynb'); // Change to your notebook path
             if (!response.ok) {
                 throw new Error(`Failed to fetch notebook: ${response.statusText}`);
             }
