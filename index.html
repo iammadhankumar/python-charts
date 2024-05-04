@@ -1,30 +1,52 @@
-<div style="
-  max-width: 100%; 
-  padding: 10px; 
-  border: 2px solid #FF5733; /* Orange-red border for emphasis */
-  background-color: #F1F1F1; /* Light background for contrast */
-  border-radius: 10px; /* Rounded corners for a softer look */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
-">
-  <h3 style="
-    text-align: center; 
-    color: #008080; /* Teal blue header for a cooler tone */
-  ">
-    Python Charts
-  </h3>
-  <iframe
-    src="https://nbviewer.org/github/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb"
-    width="100%"
-    style="
-      min-height: 600px; 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Embedded Content</title>
+  <!-- Viewport meta tag for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Additional CSS for styling -->
+  <style>
+    /* Outer container to add padding and styling */
+    .iframe-container {
+      max-width: 100%; 
+      padding: 10px; 
+      border: 2px solid #FF5733; /* Border with bright color */
+      background-color: #F1F1F1; /* Light background for contrast */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    }
+    /* Responsive iframe with full width */
+    iframe {
+      width: 100%; 
       border: none; 
       border-radius: 10px; /* Matching outer border radius */
-      background-color: #FFFFFF; /* White background for content */
-    "
-  >
-    <p>Your browser does not support iframes. Please visit the 
-    <a href="https://github.com/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb" style="
-      color: #FF5733; /* Link color matching the border */
-    ">link</a>.</p>
-  </iframe>
-</div>
+      background-color: #FFFFFF; /* White background */
+    }
+    /* Responsive height for mobile devices */
+    @media (min-width: 600px) {
+      iframe {
+        height: 600px; /* Standard height for larger screens */
+      }
+    }
+    @media (max-width: 599px) {
+      iframe {
+        height: 400px; /* Reduced height for smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Wrapper for embedded content with colorful design -->
+  <div class="iframe-container">
+    <h1 style="text-align: center; color: #008080;">Python Charts</h1>
+    <iframe
+      src="https://nbviewer.org/github/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb"
+    >
+      <p>Your browser does not support iframes. Please visit the 
+      <a href="https://github.com/iammadhankumar/python-charts/blob/main/output/charts-output.ipynb" 
+         style="color: #FF5733;">link</a>.</p>
+    </iframe>
+  </div>
+</body>
+</html>
