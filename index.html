@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jupyter Notebook Viewer</title>
+    <!-- Optional styling for better design -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+    </style>
+    <script>
+    async function displayNotebook() {
+        try {
+            // Fetch the notebook from the "output" folder (adjust as needed)
+            const response = await fetch('output/python-charts.ipynb'); // Change to your notebook path
+            if (!response.ok) {
+                throw new Error(`Failed to fetch notebook: ${response.statusText}`);
+            }
+
+            const notebook = await response.json(); // Parse the notebook content
+            const contentDiv = document.getElementById('content'); // Element to display content
+
+            // Loop through the notebook cells and display markdown/code
+            notebook.cells.forEach((cell) => {
+                if (cell.cell_type === 'markdown') {
+                    const markdownDiv = document.createElement('div');
+                    markdownDiv.innerHTML = cell.source.join('<br>'); // Display markdown content
+                    contentDiv.appendChild(markdownDiv);
+                } else if (cell.cell_type === 'code') {
+                    const codeDiv = document.createElement('pre');
+                    codeDiv.textContent = cell.source.join(''); // Display code content
+                    contentDiv.appendChild(codeDiv);
+                }
+            });
+        } catch (error) {
+            console.error('Error fetching or displaying the notebook:', error);
+            const errorDiv = document.createElement('div');
+            errorDiv.textContent = 'An error occurred while loading the notebook.';
+            contentDiv.appendChild(errorDiv);
+        }
+    }
+
+    // Call the function once the page has fully loaded
+    document.addEventListener('DOMContentLoaded', displayNotebook);
+    </script>
+</head>
+<body>
+    <h1>Jupyter Notebook Content</h1>
+    <div id="content"></div> <!-- This is where the notebook content will be displayed -->
+</body>
+</html>
